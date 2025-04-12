@@ -46,6 +46,15 @@ const Indicator = GObject.registerClass(
             this._item2.connect('toggled', (item, state) => {
                 this._settings.set_boolean('option2', state);
             });
+
+            // Подключаем сигнал изменения настроек
+            this._settings.connect('changed::option1', () => {
+                this._item1.setToggleState(this._settings.get_boolean('option1'));
+            });
+
+            this._settings.connect('changed::option2', () => {
+                this._item2.setToggleState(this._settings.get_boolean('option2'));
+            });
         }
     }
 );
