@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.menu-example" path="/org/gnome/shell/extensions/menu-example/">
+    <key name="option1" type="b">
+      <default>false</default>
+      <summary>Первая опция</summary>
+      <description>Состояние первой опции</description>
+    </key>
+    <key name="option2" type="b">
+      <default>false</default>
+      <summary>Вторая опция</summary>
+      <description>Состояние второй опции</description>
+    </key>
+  </schema>
+</schemalist> 

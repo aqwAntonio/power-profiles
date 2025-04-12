@@ -1,0 +1,9 @@
+{
+  "name": "Меню опций",
+  "description": "Простое меню с двумя опциями, которые сохраняют своё состояние",
+  "uuid": "menu-extension@example.com",
+  "shell-version": ["45", "46", "47", "48"],
+  "settings-schema": "org.gnome.shell.extensions.menu-example",
+  "gettext-domain": "menu-extension",
+  "url": "https://github.com/yourusername/menu-extension"
+} 
