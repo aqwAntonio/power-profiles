@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "resource:///org/gnome/shell/*": ["./typings/gnome-shell/js/*"],
+      "resource:///org/gnome/Shell/Extensions/*": ["./typings/gnome-shell-extensions/*"],
+      "gi://*": ["./typings/gi/*"]
+    }
+  }
+}
